@@ -19,7 +19,7 @@ use tokio_tungstenite::tungstenite::Message;
 #[clap(version = "1.0", author = "Andrew Gazelka")]
 struct CliOptions {
     /// The IP we are going to connect to
-    #[clap(long, default_value = "127.0.0.1")]
+    #[clap(long, default_value = "3b3t.shock.gg")]
     pub ip: String,
 
     /// The port of the web socket that is used to communicate bot commands
