@@ -16,10 +16,10 @@ use tokio_tungstenite::tungstenite::Message;
 ///
 /// goto {x} {y} {z}    — go to the coordinates {x} {y} {z}
 #[derive(Parser, Debug)]
-#[clap(version = "1.0", author = "Andrew Gazelka")]
+#[clap(version = "1.0", author = "ikimiki")]
 struct CliOptions {
     /// The IP we are going to connect to
-    #[clap(long, default_value = "127.0.0.1")]
+    #[clap(long, default_value = "3b3t.shock.gg")]
     pub ip: String,
 
     /// The port of the web socket that is used to communicate bot commands
